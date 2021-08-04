@@ -4,6 +4,6 @@ module.exports = {
         host: 'localhost',
         database: 'myapp',
         user: 'root',
-        password: 'root'
+        password: ''
     }
 }

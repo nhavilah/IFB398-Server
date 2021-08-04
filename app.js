@@ -42,7 +42,7 @@ app.use((req,res,next) => {
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
-app.use('/destinations',referenceRouter);
+app.use('/references',referenceRouter);
 
 app.use('/user',usersRouter);
 app.use('/knex',function(req,res,next){
